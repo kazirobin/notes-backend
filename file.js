@@ -1,0 +1,6 @@
+const fs = require("fs")
+// fs.appendFile("./test.txt","\n hay king",(err) => {  })
+// fs.cpSync("./test.txt","./copy.txt")
+// fs.unlink("./copy.txt",(err) => {  })
+  console.log(fs.statSync("./math.js").isFile())
+  // fs.mkdirSync("hello")
