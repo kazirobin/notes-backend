@@ -1,5 +1,6 @@
-const math = require("./math.js")
-console.log("Hello i am robin")
+const math = require("./nodejs/math.js")
+console.clear()
+console.log("Hello i am ")
 
 
 console.log(math.sub(5,
